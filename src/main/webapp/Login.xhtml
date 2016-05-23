@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<meta charset="utf-8" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>AdminLTE 2 | Log in</title>
+	<!-- Tell the browser to be responsive to screen width -->
+	<meta
+		content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+		name="viewport" />
+	<link rel="stylesheet"
+		href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+	<h:outputStylesheet name="css/bootstrap.min.css" library="bootstrap" />
+	<h:outputStylesheet name="css/AdminLTE.min.css" library="dist" />
+	<h:outputStylesheet name="css/blue.css" library="boostrap" />
+
+</h:head>
+<h:body class="hold-transition login-page">
+	<div class="login-box">
+		<div class="login-logo">
+			<a href="../../index2.html"><b>Admin</b>LTE</a>
+		</div>
+		<div class="login-box-body">
+			<p class="login-box-msg">Sign in to start your session</p>
+			<h:form>
+				
+				<div class="form-group has-feedback">
+					<h:panelGroup>
+						<p:outputLabel value="Email : " />
+						<h:inputText styleClass="form-control" />
+					</h:panelGroup>
+
+				</div>
+				
+				<div class="form-group has-feedback">
+					<p:outputLabel value="Senha : " />
+					<h:inputSecret styleClass="form-control" />
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-8">
+						<div class="checkbox icheck"></div>
+					</div>
+
+					<div class="col-xs-4">
+						<h:commandButton value="Login"
+							class="btn btn-primary btn-block btn-flat" />
+
+					</div>
+
+				</div>
+			</h:form>
+
+			<h:link value="Esqueci minha senha . " />
+			<br />
+			<h:link value="Registrar . " />
+
+
+		</div>
+
+	</div>
+
+
+
+
+
+</h:body>
+
+</html>

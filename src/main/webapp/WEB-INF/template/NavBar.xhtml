@@ -1,0 +1,56 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+
+	<h:outputStylesheet library="bootstrap" name="css/bootstrap.min.css" />
+	<h:outputStylesheet library="dist" name="css/AdminLTE.min.css" />
+	<h:outputStylesheet library="dist" name="css/skins/skin-blue.min.css" />
+
+
+
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+	<link rel="stylesheet"
+		href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+
+
+	<a href="#" class="sidebar-toggle" data-toggle="offcanvas"
+		role="button"> <span class="sr-only">Toggle navigation</span>
+	</a>
+	<!-- Navbar Right Menu -->
+	<div class="navbar-custom-menu">
+		<ul class="nav navbar-nav">
+			<li class="dropdown user user-menu">
+				<!-- Menu Toggle Button --> <a href="#" class="dropdown-toggle"
+				data-toggle="dropdown"><i class="fa fa-user " /> <span
+					class="hidden-xs">Alexander Pierce</span> </a>
+				<ul class="dropdown-menu">
+					<!-- The user image in the menu -->
+					<li class="user-header"><h:graphicImage library="img"
+							name="user2-160x160.jpg" class="img-circle" alt="User Image" />
+						<p>
+							Alexander Pierce - Web Developer <small>Member since Nov.
+								2012</small>
+						</p></li>
+
+
+					<li class="user-footer">
+						<div class="pull-left">
+							<h:link class="btn btn-default btn-flat">Profile</h:link>
+						</div>
+						<div class="pull-right">
+							<h:link class="btn btn-default btn-flat">Sing in</h:link>
+						</div>
+					</li>
+				</ul>
+			</li>
+
+			<li><a href="#" data-toggle="control-sidebar"><i
+					class="fa fa-gears"></i></a></li>
+		</ul>
+	</div>
+
+
+</ui:composition>
