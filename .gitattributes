@@ -1,2 +1,2 @@
-src/main/webapp/resources/* linguist-vendored
+src/main/webapp/* linguist-vendored
 target/* linguist-vendored
